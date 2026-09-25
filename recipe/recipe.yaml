@@ -1,5 +1,5 @@
 context:
-  version: "0.6"
+  version: "0.7"
 
 package:
   name: hidapitester
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/todbot/hidapitester/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: af13fd2a5056cd9961adac684812414405ec98a9e8cedcc9bcbca9b9425c6836
+  sha256: a20f805e308592f79c9ea4ecf74d9ea36a267e222b3c3c49c18f7b980a67ebbe
   patches:
     - 0001-use-conda-provided-dependencies.patch
 
